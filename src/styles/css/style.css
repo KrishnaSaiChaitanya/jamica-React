@@ -12452,7 +12452,7 @@ h6 {
 
 @media (max-width: 991px) {
   .halfMap.-type-1 .halfMap__map .map {
-    min-height: 450px;
+    min-height: 250px;
   }
 }
 
@@ -15755,6 +15755,12 @@ ul.booking-steps li .text {
   opacity: 1;
   visibility: visible;
   bottom: -15px;
+}
+.login-booking .login-content .login-text {
+  text-align: center;
+}
+.login-booking .login-content .login-text span {
+  color: #ea652b;
 }
 .login-booking .login-content .login-form .one-half {
   width: 50%;

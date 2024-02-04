@@ -12,12 +12,38 @@ const tabBtns = [
     title: "Login",
   },
 ];
+const countryData = [
+  {
+    name: "England",
+    code: "+44",
+  },
+  {
+    name: "United States",
+    code: "+1",
+  },
+  {
+    name: "Dubai",
+    code: "+971",
+  },
+  {
+    name: "Bangladesh",
+    code: "+880",
+  },
+];
 
 const LoginArea = () => {
   const [tabBtnActive, setTabBtnActive] = useState(2);
+  const [countryValue, setCountryValue] = useState("+44");
   const navigate = useNavigate();
   const [popup, setPopup] = useState(false);
-
+  const handleCountryCHnage = (e) => {
+    const value = e.target.value;
+    countryData.filter((item) => {
+      if (item.name == value) {
+        setCountryValue(item.code);
+      }
+    });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     // router.push("/booking/card");
@@ -51,7 +77,16 @@ const LoginArea = () => {
                 })}
               </ul>
               <div className="login-content">
-                <p>fbjhvu</p>
+                {tabBtnActive == 2 ? (
+                  <p className="login-text">
+                    {" "}
+                    returning Customer ? login <span>here</span>{" "}
+                  </p>
+                ) : (
+                  <p className="login-text">
+                    Don't have account ? register <span>here</span>{" "}
+                  </p>
+                )}
                 {tabBtnActive == 1 ? (
                   <div>
                     <div className="login-form">
@@ -176,22 +211,36 @@ const LoginArea = () => {
 
                         <div className="one-half number-bags">
                           <label for="country">Country</label>
-                          <select name="country" id="country">
-                            <option value="England">England</option>
-                            <option value="United States">United States</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Bangladesh">Bangladesh</option>
+                          <select
+                            name="country"
+                            id="country"
+                            onChange={(e) => handleCountryCHnage(e)}
+                          >
+                            {countryData.map(({ name, code }, i) => {
+                              return (
+                                <option value={name} key={i}>
+                                  {name}
+                                </option>
+                              );
+                            })}
+                            {/* <option value="England">England</option>
+                          <option value="United States">United States</option>
+                          <option value="Dubai">Dubai</option>
+                          <option value="Bangladesh">Bangladesh</option> */}
                           </select>
                           {/* <div className="select"></div> */}
                         </div>
                         <div className="one-half phone">
                           <label for="phone">Phone</label>
-                          <input
-                            type="text"
-                            name="phone"
-                            id="phone"
-                            placeholder="(+90) 538 658 96 315"
-                          />
+                          <div className="country-input">
+                            <span>{`(${countryValue})`}</span>
+                            <input
+                              type="text"
+                              name="phone"
+                              id="phone"
+                              placeholder=" 538 658 96 315"
+                            />
+                          </div>
                         </div>
                         <div className="one-half pass">
                           <label for="pass">Password</label>
@@ -243,14 +292,10 @@ const LoginArea = () => {
 
       {popup && (
         <div className="popup">
-          <div className="content-wrapper">
-            <p>
-              For airtpot pickup, provide your flight number and if its late, we
-              will wait
-            </p>
+          <div className="content-wrapper " style={{ padding: "50px" }}>
+            <p>User Profile Created</p>
             <div className="btns">
-              <button onClick={handlePopup}>No thanks continnue</button>
-              <button onClick={handlePopup}>Yes please go back</button>
+              <button onClick={handlePopup}>Close & Continue</button>
             </div>
           </div>
         </div>

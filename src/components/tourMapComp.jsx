@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Filters from "./Filters";
 import TourCard from "./TourCard";
 import TourSidebar from "./TourSidebar";
@@ -262,7 +263,9 @@ function TourLayout() {
               <div>1362 results</div>
             </div>
             <div class="col-auto">
-              <button class="btn-show-map">Show On Map</button>
+              <Link to={"/jamaica/tour-list"}>
+                <button class="btn-show-map">Tour List Search</button>
+              </Link>
             </div>
           </div>
           {/* <div className="row">
