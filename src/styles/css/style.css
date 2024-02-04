@@ -18872,7 +18872,7 @@ button:focus {
   opacity: 0;
   /* border-top: 6px solid #d7d2bd; */
   visibility: hidden;
-  background-color: rgba(30, 30, 30, 0.95);
+  /* background-color: rgba(30, 30, 30, 0.95); */
 }
 .calendar.open,
 .time-open.open,
@@ -21772,7 +21772,7 @@ html {
 }
 
 .book-adress {
-  background-color: #fef7f4;
+  background-color: white;
 }
 .book-adress .close {
   top: 30px;

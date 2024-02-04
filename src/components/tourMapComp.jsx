@@ -1,6 +1,6 @@
-import Filters from "@/components/Filters";
-import TourCard from "@/components/TourCard";
-import TourSidebar from "@/components/TourSidebar";
+import Filters from "./Filters";
+import TourCard from "./TourCard";
+import TourSidebar from "./TourSidebar";
 import React, { useEffect } from "react";
 
 function TourLayout() {

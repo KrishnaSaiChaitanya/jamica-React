@@ -51,6 +51,7 @@ const LoginArea = () => {
                 })}
               </ul>
               <div className="login-content">
+                <p>fbjhvu</p>
                 {tabBtnActive == 1 ? (
                   <div>
                     <div className="login-form">

@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <section className="hero -type-10 jamaica-page">
         <div className="hero__bg">
-          <img src="/img/hero/10/1.jpg" alt="background" />
+          <img src="../img/hero/10/1.jpg" alt="background" />
         </div>
 
         <div className="container">
@@ -112,7 +112,7 @@ export default function Home() {
                 <div className="tourCard__header">
                   <div className="tourCard__image ratio ratio-28:20">
                     <img
-                      src="/img/tourCards/1/1.png"
+                      src="../img/tourCards/1/1.png"
                       alt="image"
                       className="img-ratio"
                     />
@@ -172,7 +172,7 @@ export default function Home() {
                 <div className="tourCard__header">
                   <div className="tourCard__image ratio ratio-28:20">
                     <img
-                      src="/img/tourCards/1/2.png"
+                      src="../img/tourCards/1/2.png"
                       alt="image"
                       className="img-ratio"
                     />
@@ -232,7 +232,7 @@ export default function Home() {
                 <div className="tourCard__header">
                   <div className="tourCard__image ratio ratio-28:20">
                     <img
-                      src="/img/tourCards/1/3.png"
+                      src="../img/tourCards/1/3.png"
                       alt="image"
                       className="img-ratio"
                     />
@@ -292,7 +292,7 @@ export default function Home() {
                 <div className="tourCard__header">
                   <div className="tourCard__image ratio ratio-28:20">
                     <img
-                      src="/img/tourCards/1/4.png"
+                      src="../img/tourCards/1/4.png"
                       alt="image"
                       className="img-ratio"
                     />
@@ -354,7 +354,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="featureCard -type-3 -style-2">
                 <div className="featureCard__image">
-                  <img src="/img/cta/5/1.jpg" alt="image" />
+                  <img src="../img/cta/5/1.jpg" alt="image" />
                 </div>
                 <div className="featureCard__content">
                   <div className="text-white">
@@ -373,7 +373,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="featureCard -type-3 -style-2">
                 <div className="featureCard__image">
-                  <img src="/img/cta/5/2.jpg" alt="image" />
+                  <img src="../img/cta/5/2.jpg" alt="image" />
                 </div>
                 <div className="featureCard__content">
                   <div className="text-white">
@@ -392,7 +392,7 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="featureCard -type-3 -style-2">
                 <div className="featureCard__image">
-                  <img src="/img/cta/5/3.jpg" alt="image" />
+                  <img src="../img/cta/5/3.jpg" alt="image" />
                 </div>
                 <div className="featureCard__content">
                   <div className="text-white">80% Discount</div>
@@ -432,7 +432,7 @@ export default function Home() {
                 <div className="col-md-4 col-6">
                   <a href="" className="featureCard -type-5 -hover-accent-1">
                     <div className="featureCard__icon">
-                      <img src="/img/icons/5/1.svg" alt="image" />
+                      <img src="../img/icons/5/1.svg" alt="image" />
                     </div>
 
                     <h4 className="text-18 fw-500 mt-20">City Tours</h4>
@@ -443,7 +443,7 @@ export default function Home() {
                 <div className="col-md-4 col-6">
                   <a href="" className="featureCard -type-5 -hover-accent-1">
                     <div className="featureCard__icon">
-                      <img src="/img/icons/5/2.svg" alt="image" />
+                      <img src="../img/icons/5/2.svg" alt="image" />
                     </div>
 
                     <h4 className="text-18 fw-500 mt-20">Cultural Tours</h4>
@@ -454,7 +454,7 @@ export default function Home() {
                 <div className="col-md-4 col-6">
                   <a href="" className="featureCard -type-5 -hover-accent-1">
                     <div className="featureCard__icon">
-                      <img src="/img/icons/5/3.svg" alt="image" />
+                      <img src="../img/icons/5/3.svg" alt="image" />
                     </div>
 
                     <h4 className="text-18 fw-500 mt-20">Day Cruises</h4>
@@ -465,7 +465,7 @@ export default function Home() {
                 <div className="col-md-4 col-6">
                   <a href="" className="featureCard -type-5 -hover-accent-1">
                     <div className="featureCard__icon">
-                      <img src="/img/icons/5/4.svg" alt="image" />
+                      <img src="../img/icons/5/4.svg" alt="image" />
                     </div>
 
                     <h4 className="text-18 fw-500 mt-20">Bus Tours</h4>
@@ -476,7 +476,7 @@ export default function Home() {
                 <div className="col-md-4 col-6">
                   <a href="" className="featureCard -type-5 -hover-accent-1">
                     <div className="featureCard__icon">
-                      <img src="/img/icons/5/5.svg" alt="image" />
+                      <img src="../img/icons/5/5.svg" alt="image" />
                     </div>
 
                     <h4 className="text-18 fw-500 mt-20">Beach Tours</h4>
@@ -487,7 +487,7 @@ export default function Home() {
                 <div className="col-md-4 col-6">
                   <a href="" className="featureCard -type-5 -hover-accent-1">
                     <div className="featureCard__icon">
-                      <img src="/img/icons/5/6.svg" alt="image" />
+                      <img src="../img/icons/5/6.svg" alt="image" />
                     </div>
 
                     <h4 className="text-18 fw-500 mt-20">Food Tours</h4>
@@ -520,7 +520,7 @@ export default function Home() {
               <a href="" className="featureCard -type-7 -hover-image-scale">
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">
                   <img
-                    src="/img/features/2/1.jpg"
+                    src="../img/features/2/1.jpg"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -536,7 +536,7 @@ export default function Home() {
               <a href="" className="featureCard -type-7 -hover-image-scale">
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">
                   <img
-                    src="/img/features/2/2.jpg"
+                    src="../img/features/2/2.jpg"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -552,7 +552,7 @@ export default function Home() {
               <a href="" className="featureCard -type-7 -hover-image-scale">
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">
                   <img
-                    src="/img/features/2/3.jpg"
+                    src="../img/features/2/3.jpg"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -568,7 +568,7 @@ export default function Home() {
               <a href="" className="featureCard -type-7 -hover-image-scale">
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">
                   <img
-                    src="/img/features/2/4.jpg"
+                    src="../img/features/2/4.jpg"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -584,7 +584,7 @@ export default function Home() {
               <a href="" className="featureCard -type-7 -hover-image-scale">
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">
                   <img
-                    src="/img/features/2/5.jpg"
+                    src="../img/features/2/5.jpg"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -600,7 +600,7 @@ export default function Home() {
               <a href="" className="featureCard -type-7 -hover-image-scale">
                 <div className="featureCard__image ratio ratio-23:30 -hover-image-scale__image rounded-12">
                   <img
-                    src="/img/features/2/6.jpg"
+                    src="../img/features/2/6.jpg"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -618,7 +618,7 @@ export default function Home() {
       <section className="relative layout-pt-xl layout-pb-xl lg:pt-0">
         <div className="sectionBg -type-2">
           <div className="bg-accent-1-05 rounded-24"></div>
-          <img src="/img/about/3/1.jpg" alt="image" className="rounded-24" />
+          <img src="../img/about/3/1.jpg" alt="image" className="rounded-24" />
         </div>
 
         <div className="container">
@@ -630,7 +630,7 @@ export default function Home() {
                 <div className="col-12">
                   <div className="featureIcon -type-1 d-flex">
                     <div className="featureIcon__icon size-50">
-                      <img src="/img/icons/1/ticket.svg" alt="icon" />
+                      <img src="../img/icons/1/ticket.svg" alt="icon" />
                     </div>
 
                     <div className="ml-30">
@@ -647,7 +647,10 @@ export default function Home() {
                 <div className="col-12">
                   <div className="featureIcon -type-1 d-flex">
                     <div className="featureIcon__icon size-50">
-                      <img src="/img/icons/1/hot-air-balloon.svg" alt="icon" />
+                      <img
+                        src="../img/icons/1/hot-air-balloon.svg"
+                        alt="icon"
+                      />
                     </div>
 
                     <div className="ml-30">
@@ -664,7 +667,7 @@ export default function Home() {
                 <div className="col-12">
                   <div className="featureIcon -type-1 d-flex">
                     <div className="featureIcon__icon size-50">
-                      <img src="/img/icons/1/diamond.svg" alt="icon" />
+                      <img src="../img/icons/1/diamond.svg" alt="icon" />
                     </div>
 
                     <div className="ml-30">
@@ -689,7 +692,7 @@ export default function Home() {
           <div className="row y-gap-30">
             <div className="col-lg-3 col-6">
               <div className="text-center">
-                <img src="/img/icons/3/1.svg" alt="icon" />
+                <img src="../img/icons/3/1.svg" alt="icon" />
                 <h3 className="text-40 md:text-30 lh-14 fw-700 mt-30 md:mt-15">
                   932M
                 </h3>
@@ -699,7 +702,7 @@ export default function Home() {
 
             <div className="col-lg-3 col-6">
               <div className="text-center">
-                <img src="/img/icons/3/2.svg" alt="icon" />
+                <img src="../img/icons/3/2.svg" alt="icon" />
                 <h3 className="text-40 md:text-30 lh-14 fw-700 mt-30 md:mt-15">
                   24M
                 </h3>
@@ -709,7 +712,7 @@ export default function Home() {
 
             <div className="col-lg-3 col-6">
               <div className="text-center">
-                <img src="/img/icons/3/3.svg" alt="icon" />
+                <img src="../img/icons/3/3.svg" alt="icon" />
                 <h3 className="text-40 md:text-30 lh-14 fw-700 mt-30 md:mt-15">
                   10M
                 </h3>
@@ -719,7 +722,7 @@ export default function Home() {
 
             <div className="col-lg-3 col-6">
               <div className="text-center">
-                <img src="/img/icons/3/4.svg" alt="icon" />
+                <img src="../img/icons/3/4.svg" alt="icon" />
                 <h3 className="text-40 md:text-30 lh-14 fw-700 mt-30 md:mt-15">
                   65M
                 </h3>
@@ -731,7 +734,7 @@ export default function Home() {
       </section>
       <section className="video">
         <div className="video__bg">
-          <img src="/img/video/bg.jpg" alt="image" />
+          <img src="../img/video/bg.jpg" alt="image" />
         </div>
 
         <div className="container">
@@ -813,7 +816,7 @@ export default function Home() {
 
                 <div className="d-flex items-center">
                   <img
-                    src="/img/avatars/1/1.jpg"
+                    src="../img/avatars/1/1.jpg"
                     alt="image"
                     className="size-60 object-cover rounded-full"
                   />
@@ -839,7 +842,7 @@ export default function Home() {
 
                 <div className="d-flex items-center">
                   <img
-                    src="/img/avatars/1/1.jpg"
+                    src="../img/avatars/1/1.jpg"
                     alt="image"
                     className="size-60 object-cover rounded-full"
                   />
@@ -865,7 +868,7 @@ export default function Home() {
 
                 <div className="d-flex items-center">
                   <img
-                    src="/img/avatars/1/1.jpg"
+                    src="../img/avatars/1/1.jpg"
                     alt="image"
                     className="size-60 object-cover rounded-full"
                   />
@@ -920,7 +923,7 @@ export default function Home() {
               <a href="#" className="blogCard -type-1">
                 <div className="blogCard__image ratio ratio-41:30">
                   <img
-                    src="/img/blogCards/1/1.png"
+                    src="../img/blogCards/1/1.png"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -946,7 +949,7 @@ export default function Home() {
               <a href="#" className="blogCard -type-1">
                 <div className="blogCard__image ratio ratio-41:30">
                   <img
-                    src="/img/blogCards/1/2.png"
+                    src="../img/blogCards/1/2.png"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -972,7 +975,7 @@ export default function Home() {
               <a href="#" className="blogCard -type-1">
                 <div className="blogCard__image ratio ratio-41:30">
                   <img
-                    src="/img/blogCards/1/3.png"
+                    src="../img/blogCards/1/3.png"
                     alt="image"
                     className="img-ratio rounded-12"
                   />
@@ -998,7 +1001,7 @@ export default function Home() {
       </section>
       <section className="layout-pt-xl layout-pb-xl relative">
         <div className="sectionBg">
-          <img src="/img/cta/13/bg.jpg" alt="image" className="img-cover" />
+          <img src="../img/cta/13/bg.jpg" alt="image" className="img-cover" />
         </div>
 
         <div className="container">

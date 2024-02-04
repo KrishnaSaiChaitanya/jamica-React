@@ -355,18 +355,20 @@ a {
 .login-booking > ul {
   @media only screen and (max-width: 565px) {
     border-bottom: none;
-    background-color: $color-primary;
+    // background-color: $color-primary;
+   
 
     li,
     li.active,
     li:hover {
-      color: #fff !important;
+      color: #000;
+      font-weight: 400;
     }
 
     li:hover:before,
     li.active:before {
       bottom: -7px !important;
-      background-color: #fff !important;
+      background-color:  #000; 
     }
   }
 }

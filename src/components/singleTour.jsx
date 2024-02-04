@@ -1,8 +1,8 @@
-import Calender from "@/components/Calender";
-import TourList from "@/components/TourList";
+import TourList from "./TourList";
 import React, { useEffect, useState, useRef } from "react";
 import SingleTourForm from "./singleTourForm";
-import SingleTour from "@/app/jamaica/tours-list/[id]/page";
+import Calender from "./Calender";
+// import SingleTour from "@/app/jamaica/tours-list/[id]/page";
 
 const tabBtnsData = [
   {

@@ -13,40 +13,7 @@ const navigationData = [
   },
   {
     id: 2,
-    title: "Our Fleet",
-    items: [
-      {
-        title: "Our Fleet 03",
-        url: "/fleet",
-      },
-      {
-        title: "Our Fleet Single 2",
-        url: "/fleet/single-fleet",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Services",
-    url: "/services",
-  },
-  {
-    id: 4,
-    title: "Blog",
-    items: [
-      {
-        title: "Blog Grid",
-        url: "/blog",
-      },
-      {
-        title: "Single Blog",
-        url: "/blog/12",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Pages",
+    title: "Taxi ",
     items: [
       {
         title: "Booking Car Class",
@@ -64,21 +31,15 @@ const navigationData = [
         title: "Passenger Info",
         url: "/booking/passenger-info",
       },
-      {
-        title: "Booking Card",
-        url: "/booking/card",
-      },
+
       {
         title: "Checkout Confirm",
         url: "/booking/checkout-confirm",
       },
+
       {
         title: "Checkout",
         url: "/booking/checkout",
-      },
-      {
-        title: "Checkout Tours",
-        url: "/booking/checkout-tours",
       },
       {
         title: "Extras",
@@ -87,13 +48,69 @@ const navigationData = [
     ],
   },
   {
+    id: 3,
+    title: "Our Fleet",
+    items: [
+      {
+        title: "Our Fleet 03",
+        url: "/fleet",
+      },
+      {
+        title: "Our Fleet Single 2",
+        url: "/fleet/single-fleet",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Services",
+    url: "/services",
+  },
+  {
+    id: 5,
+    title: "Blog",
+    items: [
+      {
+        title: "Blog Grid",
+        url: "/blog",
+      },
+      {
+        title: "Single Blog",
+        url: "/blog/12",
+      },
+    ],
+  },
+  {
     id: 6,
-    title: "Jamaica Pages",
+    title: "Tour Booking",
     items: [
       {
         title: "Home",
         url: "/jamaica/home",
       },
+      {
+        title: "Tour List",
+        url: "/jamaica/tour-list",
+      },
+      {
+        title: "Tour Detail",
+        url: "/jamaica/tour-detail",
+      },
+      {
+        title: "Tour Map",
+        url: "/jamaica/tour-map",
+      },
+      {
+        title: "Checkout",
+        url: "/jamaica/checkout",
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    title: "Jamaica",
+    items: [
       {
         title: "About",
         url: "/jamaica/about",
@@ -102,61 +119,19 @@ const navigationData = [
         title: "Destinations",
         url: "/jamaica/destinations",
       },
-      {
-        title: "Booking",
-        url: "/jamaica/booking",
-      },
+
       {
         title: "Contact US",
         url: "/jamaica/contact-us",
       },
-      {
-        title: "Blogs",
-        url: "/jamaica/blog",
-      },
-      {
-        title: "single Blog",
-        url: "/jamaica/blog/123",
-      },
-      {
-        title: "Booking Status",
-        url: "/jamaica/booking-status",
-      },
+
       {
         title: "Help Center",
         url: "/jamaica/help-center",
       },
       {
-        title: "Invoice",
-        url: "/jamaica/invoice",
-      },
-      {
-        title: "Tour Map",
-        url: "/jamaica/tour-map",
-      },
-      {
-        title: "Tours List",
-        url: "/jamaica/tours-list",
-      },
-      {
-        title: "Tour Details",
-        url: "/jamaica/tours-list/123",
-      },
-      {
-        title: "Taxi Home",
-        url: "/jamaica/taxi-home",
-      },
-      {
         title: "Terms",
         url: "/jamaica/terms",
-      },
-      {
-        title: "Login",
-        url: "/jamaica/Login",
-      },
-      {
-        title: "Register",
-        url: "/jamaica/register",
       },
     ],
   },
